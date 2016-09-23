@@ -1,20 +1,20 @@
 {
-  "name": "tao",
+  "name": "generator-tao",
   "version": "0.0.1",
   "description": "道 - tao JavaScript project scaffolder.",
   "main": "index.js",
   "keywords": [
     "scaffolder"
   ],
-  "homepage": "https://github.com/edloidas/tao#readme",
+  "homepage": "https://github.com/edloidas/generator-tao#readme",
   "bugs": {
-    "url": "https://github.com/edloidas/tao/issues"
+    "url": "https://github.com/edloidas/generator-tao/issues"
   },
   "license": "MIT",
   "author": "Mikita Taukachou <edloidas@gmail.com> (http://edloidas.com)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edloidas/tao.git"
+    "url": "git+https://github.com/edloidas/generator-tao.git"
   },
   "scripts": {
     "test": "jest",
