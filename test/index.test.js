@@ -1,5 +1,6 @@
 'use strict';
 
 test('dummy test description', () => {
-  expect(!null).toBe(true);
+  const index = require('../index');
+  expect(!index).toBe(false);
 });
