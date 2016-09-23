@@ -1,0 +1,34 @@
+{
+  "name": "tao",
+  "version": "0.0.1",
+  "description": "道 - tao JavaScript project scaffolder.",
+  "main": "index.js",
+  "keywords": [
+    "scaffolder"
+  ],
+  "homepage": "https://github.com/edloidas/tao#readme",
+  "bugs": {
+    "url": "https://github.com/edloidas/tao/issues"
+  },
+  "license": "MIT",
+  "author": "Mikita Taukachou <edloidas@gmail.com> (http://edloidas.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edloidas/tao.git"
+  },
+  "scripts": {
+    "test": "jest",
+    "cover": "jest --coverage",
+    "report": "node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "coveralls": "^2.11.14",
+    "istanbul": "^0.4.5",
+    "jest": "^15.1.1"
+  },
+  "engines": {
+    "node": ">= 6.5.0",
+    "npm": ">= 3.10.7"
+  }
+}
