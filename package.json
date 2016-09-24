@@ -19,11 +19,13 @@
   "scripts": {
     "test": "jest",
     "cover": "jest --coverage",
-    "report": "node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+    "report": "node_modules/.bin/jest --coverage && cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
+    "prepush": "npm test"
   },
   "dependencies": {},
   "devDependencies": {
     "coveralls": "^2.11.14",
+    "husky": "^0.11.8",
     "istanbul": "^0.4.5",
     "jest": "^15.1.1"
   },
