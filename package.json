@@ -1,10 +1,16 @@
 {
   "name": "generator-tao",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "道 - tao JavaScript project scaffolder.",
   "main": "index.js",
   "keywords": [
-    "scaffolder"
+    "道",
+    "tao",
+    "scaffolder",
+    "yo",
+    "yeoman",
+    "generator",
+    "yeoman-generator"
   ],
   "homepage": "https://github.com/edloidas/generator-tao#readme",
   "bugs": {
@@ -12,6 +18,9 @@
   },
   "license": "MIT",
   "author": "Mikita Taukachou <edloidas@gmail.com> (http://edloidas.com)",
+  "files": [
+    "app"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/edloidas/generator-tao.git"
@@ -22,7 +31,9 @@
     "report": "node_modules/.bin/jest --coverage && cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "prepush": "npm test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "yeoman-generator": "^0.24.1"
+  },
   "devDependencies": {
     "coveralls": "^2.11.14",
     "husky": "^0.11.8",
