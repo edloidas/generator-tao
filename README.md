@@ -9,11 +9,13 @@ Generator Tao
 
 > 道 - tao JavaScript project scaffolder.
 
-> [Tao](https://en.wikipedia.org/wiki/Tao) or Dao (/taʊ/, /daʊ/; Chinese: 道) is a Chinese word signifying 'way', 'path', 'route', or sometimes more loosely, 'doctrine' or 'principle'.
+:exclamation: **NOT YET PRODUCTION-READY** :exclamation:
 
 ## About ##
 
 Tao is a lightweight JavaScript project scaffolder. The simple way of initializing your project.
+
+[Tao](https://en.wikipedia.org/wiki/Tao) or Dao (/taʊ/, /daʊ/; Chinese: 道) is a Chinese word signifying 'way', 'path', 'route', or sometimes more loosely, 'doctrine' or 'principle'.
 
 ## License ##
 
