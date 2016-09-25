@@ -2,4 +2,4 @@
 
 var yeoman = require('yeoman-generator');
 
-module.exports = generators.Base.extend();
+module.exports = yeoman.Base.extend();
