@@ -1,6 +1,6 @@
 'use strict';
 
-test('dummy test description', () => {
+it('should be initialized', () => {
   const index = require('../app/index');
-  expect(!index).toBe(false);
+  expect(!!index).toBe(true);
 });
