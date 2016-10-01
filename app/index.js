@@ -13,7 +13,7 @@ module.exports = yeoman.Base.extend({
       desc: 'Debug mode',
     });
   },
-  initialize: function initialize() {
+  initializing: function initializing() {
     if ( this.options.debug ) {
       this.log( `ARGUMENT: name ${ this.name }` );
     }
