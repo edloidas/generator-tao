@@ -1,29 +1,23 @@
 {
-  "name": "generator-tao",
-  "version": "0.1.0",
-  "description": "道 - tao JavaScript project scaffolder.",
+  "name": "<%= moduleName %>",
+  "version": "<%= moduleVersion %>",
+  "description": "<%= moduleDesc %>",
   "main": "index.js",
   "keywords": [
-    "道",
-    "tao",
-    "scaffolder",
-    "yo",
-    "yeoman",
-    "generator",
-    "yeoman-generator"
+    <% moduleKeywords.forEach(function(keyword, i, arr) { %>"<%= keyword %>"<% if (i !== arr.length - 1) { %>,<% } %><% }); %>
   ],
-  "homepage": "https://github.com/edloidas/generator-tao#readme",
+  "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>#readme",
   "bugs": {
-    "url": "https://github.com/edloidas/generator-tao/issues"
+    "url": "https://github.com/<%= githubUsername %>/<%= moduleName %>/issues"
   },
-  "license": "MIT",
-  "author": "Mikita Taukachou <edloidas@gmail.com> (http://edloidas.com)",
+  "license": "<%= moduleLicense %>",
+  "author": "<%= name %> <<%= email %>> (<%= website %>)",
   "files": [
-    "app"
+    "index.js"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/edloidas/generator-tao.git"
+    "url": "git+https://github.com/<%= githubUsername %>/<%= moduleName %>.git"
   },
   "scripts": {
     "test": "jest",
@@ -33,10 +27,6 @@
     "fix": "eslint --fix **/*.js || true"
   },
   "dependencies": {
-    "lodash.kebabcase": "^4.1.1",
-    "normalize-url": "^1.6.1",
-    "ramda": "^0.22.1",
-    "yeoman-generator": "^0.24.1"
   },
   "devDependencies": {
     "coveralls": "^2.11.14",
