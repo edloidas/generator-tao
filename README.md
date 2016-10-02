@@ -9,8 +9,6 @@ Generator Tao
 
 > 道 - tao JavaScript project scaffolder.
 
-:exclamation: **NOT YET PRODUCTION-READY** :exclamation:
-
 ## About ##
 
 Tao is a lightweight JavaScript project scaffolder. The simple way of initializing your project.

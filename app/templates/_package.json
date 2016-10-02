@@ -4,7 +4,8 @@
   "description": "<%= moduleDesc %>",
   "main": "index.js",
   "keywords": [
-    <% moduleKeywords.forEach(function(keyword, i, arr) { %>"<%= keyword %>"<% if (i !== arr.length - 1) { %>,<% } %><% }); %>
+    <% moduleKeywords.forEach(function(keyword, i, arr) { %>"<%= keyword %>"<% if (i !== arr.length - 1) { %>,
+    <% } %><% }); %>
   ],
   "homepage": "https://github.com/<%= githubUsername %>/<%= moduleName %>#readme",
   "bugs": {
