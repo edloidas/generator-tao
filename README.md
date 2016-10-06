@@ -22,7 +22,7 @@ Originally, `tao` was a rework of the [zen][zen-url] generator. Check it out. It
 ## Install ##
 
 ```
-npm install --global yo generator-zen
+npm install --global yo generator-tao
 ```
 
 ## Usage ##
