@@ -54,6 +54,17 @@ Arguments:
   Type: String  Required: false
 ```
 
+#### What's next? ####
+
+1. Commit and push.
+2. Enable your project on [Travis CI][travis-profile]
+3. Enable your project on [AppVeyor][appveyor-profile]
+4. Enable your project on [Coveralls][coveralls-profile]
+5. Write some code and run `npm run fix` to make ESLint fix problems  in code for you.
+6. ???
+7. PROFIT
+
+
 ## License ##
 
 [MIT](LICENSE) © [Mikita Taukachou](https://edloidas.com)
@@ -62,6 +73,10 @@ Arguments:
 [tao-wiki-url]: https://en.wikipedia.org/wiki/Tao
 
 [zen-url]: https://github.com/iamstarkov/generator-zen/
+
+[travis-profile]: https://travis-ci.org/profile
+[appveyor-profile]: https://ci.appveyor.com/projects/new
+[coveralls-profile]: https://coveralls.io/repos/new
 
 [node-url]: https://nodejs.org/en/download/current/
 [node-image]: https://img.shields.io/node/v/generator-tao.svg?style=flat-square
