@@ -42,13 +42,13 @@ Usage:
   yo tao:app [options] [<name>]
 
 Options:
--h,   --help          # Print the generator's options and usage
-      --skip-cache    # Do not remember prompt answers                Default: false
-      --skip-install  # Do not automatically install dependencies     Default: false
--d,   --debug         # Debug mode                                    Default: false
--a,   --all           # Ask all questions                             Default: false
--s,   --skip          # Ask required questions only                   Default: false
--y,   --yarn          # Yarn install, ensure you have yarn installed  Default: false
+  -h,   --help          # Print the generator's options and usage
+        --skip-cache    # Do not remember prompt answers                Default: false
+        --skip-install  # Do not automatically install dependencies     Default: false
+  -d,   --debug         # Debug mode                                    Default: false
+  -a,   --all           # Ask all questions                             Default: false
+  -s,   --skip          # Ask required questions only                   Default: false
+  -y,   --yarn          # yarn install, ensure you have yarn installed  Default: false
 
 Arguments:
   name  # Project’s name
