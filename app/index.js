@@ -27,6 +27,9 @@ module.exports = yeoman.Base.extend({
     this.option( 'skip', { type: Boolean, required: false, alias: 's', defaults: false,
       desc: 'Ask required questions only',
     });
+    this.option( 'yarn', { type: Boolean, required: false, alias: 'y', defaults: false,
+      desc: 'Yarn install, ensure you have yarn installed',
+    });
 
     // helpers
 
@@ -49,7 +52,7 @@ module.exports = yeoman.Base.extend({
       this.log( 'ARGUMENTS' );
       this.logByKeys( this )([ 'name' ]);
       this.log( 'OPTIONS' );
-      this.logByKeys( this.options )([ 'all', 'skip', 'debug' ]);
+      this.logByKeys( this.options )([ 'all', 'skip', 'debug', 'yarn' ]);
       this.log( '' );
       this.log( `shouldAskAll:\t${ this.shouldAskAll }` );
       this.log( `shouldSkipAll:\t${ this.shouldSkipAll }` );
@@ -223,7 +226,11 @@ module.exports = yeoman.Base.extend({
   },
   install: function install() {
     if ( !this.options[ 'skip-install' ]) {
-      this.npmInstall();
+      if ( this.options.yarn ) {
+        this.spawnCommandSync( 'yarn', []);
+      } else {
+        this.npmInstall();
+      }
     }
   },
   end: function end() {

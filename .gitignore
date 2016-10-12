@@ -6,6 +6,7 @@ coverage/
 # Files #
 
 npm-debug.log
+yarn.lock
 
 .DS_Store
 Desktop.ini

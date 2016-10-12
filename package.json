@@ -10,7 +10,8 @@
     "yo",
     "yeoman",
     "generator",
-    "yeoman-generator"
+    "yeoman-generator",
+    "yarn"
   ],
   "homepage": "https://github.com/edloidas/generator-tao#readme",
   "bugs": {

@@ -34,18 +34,21 @@ yo tao
 `tao` will remember you preferences after the first run, so you will need to answer only the questions about the module itself.
 You can tell `tao` to ask `--all/-a` questions or `--skip/-s` as much as possible.
 
+To speed up the install use `--yarn/-y`. Make sure `yarn` is [installed][yarn-url] on your system.
+
 ```
 λ yo tao --help
 Usage:
   yo tao:app [options] [<name>]
 
 Options:
-  -h,   --help          # Print the generator's options and usage
-        --skip-cache    # Do not remember prompt answers             Default: false
-        --skip-install  # Do not automatically install dependencies  Default: false
-  -d,   --debug         # Debug mode                                 Default: false
-  -a,   --all           # Ask all questions                          Default: false
-  -s,   --skip          # Ask required questions only                Default: false
+-h,   --help          # Print the generator's options and usage
+      --skip-cache    # Do not remember prompt answers                Default: false
+      --skip-install  # Do not automatically install dependencies     Default: false
+-d,   --debug         # Debug mode                                    Default: false
+-a,   --all           # Ask all questions                             Default: false
+-s,   --skip          # Ask required questions only                   Default: false
+-y,   --yarn          # Yarn install, ensure you have yarn installed  Default: false
 
 Arguments:
   name  # Project’s name
@@ -60,7 +63,7 @@ Arguments:
 2. Enable your project on [Travis CI][travis-profile]
 3. Enable your project on [AppVeyor][appveyor-profile]
 4. Enable your project on [Coveralls][coveralls-profile]
-5. Write some code and run `npm run fix` to make ESLint fix problems  in code for you.
+5. Write some code and run `npm run fix` (or `yarn run fix`) to make ESLint fix problems  in code for you.
 6. ???
 7. PROFIT
 
@@ -73,6 +76,8 @@ Arguments:
 [tao-wiki-url]: https://en.wikipedia.org/wiki/Tao
 
 [zen-url]: https://github.com/iamstarkov/generator-zen/
+
+[yarn-url]: https://yarnpkg.com/en/docs/install
 
 [travis-profile]: https://travis-ci.org/profile
 [appveyor-profile]: https://ci.appveyor.com/projects/new
