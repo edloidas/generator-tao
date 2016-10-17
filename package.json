@@ -31,7 +31,7 @@
     "cover": "jest --coverage",
     "report": "node_modules/.bin/jest --coverage && cat coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "prepush": "npm test",
-    "fix": "eslint --fix . || true"
+    "fix": "eslint --fix . || exit 0"
   },
   "dependencies": {
     "lodash.capitalize": "^4.2.1",
@@ -45,10 +45,9 @@
   "devDependencies": {
     "coveralls": "^2.11.14",
     "eslint": "^3.7.0",
-    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-config-airbnb-base": "^9.0.0",
     "eslint-plugin-import": "^2.0.0",
     "husky": "^0.11.8",
-    "istanbul": "^0.4.5",
     "jest": "^16.0.1"
   },
   "engines": {
