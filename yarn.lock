@@ -1057,9 +1057,9 @@ escope@^3.6.0:
     esrecurse "^4.1.0"
     estraverse "^4.1.1"
 
-eslint-config-airbnb-base@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-8.0.0.tgz#c5e958a469ab8af76aff068b43d784e5afe74ca7"
+eslint-config-airbnb-base@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-9.0.0.tgz#03e135562aa6c4d0d9f1bbda96d901326bf58ad2"
 
 eslint-import-resolver-node@^0.2.0:
   version "0.2.3"
@@ -4058,7 +4058,7 @@ yauzl@^2.2.1:
     buffer-crc32 "~0.2.3"
     fd-slicer "~1.0.1"
 
-yeoman-assert@^2.0.0:
+yeoman-assert, yeoman-assert@^2.0.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/yeoman-assert/-/yeoman-assert-2.2.1.tgz#524bff6b2a83d344a7a24ea825c5eb16504396f5"
   dependencies:
@@ -4166,7 +4166,7 @@ yeoman-generator@^0.24.1:
     yeoman-test "^1.0.0"
     yeoman-welcome "^1.0.0"
 
-yeoman-test@^1.0.0:
+yeoman-test, yeoman-test@^1.0.0:
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/yeoman-test/-/yeoman-test-1.5.1.tgz#94578f77bd8b9a0cc1419d2776d1e829333cdc10"
   dependencies:

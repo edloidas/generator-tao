@@ -193,7 +193,6 @@ module.exports = yeoman.Base.extend({
       moduleKeywords: this.moduleKeywords,   //
       moduleVersion: this.props.moduleVersion,
       moduleLicense: this.props.moduleLicense,
-      moduleTest: this.props.moduleTest,
       appveyorSupport: this.props.appveyorSupport,
       camelModuleName: this.camelModuleName, //
       githubUsername: this.props.githubUsername,

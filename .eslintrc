@@ -10,12 +10,12 @@
     "computed-property-spacing": [ 2, "always" ],
     "template-curly-spacing": [ 2, "always" ],
     "no-restricted-syntax": [ "off" ],
-    "object-property-newline": [ "off", { "allowMultiplePropertiesPerLine": true } ]
+    "object-property-newline": [ "off", { "allowMultiplePropertiesPerLine": true } ],
+    "import/no-extraneous-dependencies": [ "error", { "devDependencies": [ "**/*.test.js", "**/*.spec.js" ] } ]
   },
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true,
     "jest": true
   }
 }
