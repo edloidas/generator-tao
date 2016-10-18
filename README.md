@@ -4,7 +4,7 @@ Generator Tao
 [![node][node-image]][node-url]
 [![Travis Build Status][travis-image]][travis-url]
 [![AppVeyor Build Status][appveyor-image]][appveyor-url]
-[![Coverage Status][coveralls-image]][coveralls-url]
+<!-- [![Coverage Status][coveralls-image]][coveralls-url] -->
 [![Dependency Status][dep-image]][dep-url]
 [![devDependency Status][devdep-image]][devdep-url]
 
