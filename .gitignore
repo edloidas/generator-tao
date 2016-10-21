@@ -2,10 +2,12 @@
 
 node_modules/
 coverage/
+public/
 
 # Files #
 
 npm-debug.log
+yarn-error.log
 
 .DS_Store
 Desktop.ini
