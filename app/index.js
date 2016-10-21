@@ -211,7 +211,7 @@ module.exports = yeoman.Base.extend({
     cpTpl( '_CONTRIBUTING.md', 'CONTRIBUTING.md' );
     cpTpl( 'editorconfig', '.editorconfig' );
     cpTpl( 'gitignore', '.gitignore' );
-    cpTpl( 'eslintrc', '.eslintrc' );
+    cpTpl( 'eslintrc.json', '.eslintrc.json' );
     cpTpl( 'eslintignore', '.eslintignore' );
     cpTpl( 'travis.yml', '.travis.yml' );
 

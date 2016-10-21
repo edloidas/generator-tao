@@ -28,7 +28,7 @@ const files = [
   'index.js',
   'README.md',
   'CONTRIBUTING.md',
-  '.eslintrc',
+  '.eslintrc.json',
   '.eslintignore',
 ];
 
